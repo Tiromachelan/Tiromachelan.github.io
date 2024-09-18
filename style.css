@@ -62,6 +62,13 @@ header, footer {
     list-style-type: none;
 }
 
+#message {
+    background-color: yellow;
+    
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
 /* custom CSS for narrow screens */
 @media screen and (max-width: 768px) {
     img {
