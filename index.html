@@ -20,41 +20,13 @@
         </header>
             <h2 id="about-me">About Me</h2>
                 <p>
-                    I am a senior pursuing a B.S. in Computer Science with a strong passion for programming, technology,
-                    and problem-solving. I have hands-on experience in software development with Java, Python, Swift, and
-                    web technologies including HTML, CSS, JavaScript, and React. My background also includes working
-                    with Linux environments, cybersecurity tools, and small-parameter LLMs for mobile devices. I am
-                    seeking opportunities where I can apply my technical skills to contribute to interesting projects (computer
-                    science, IT, or otherwise) and continue growing as a developer.
+                    I am a senior pursuing a B.S. in Computer Science with a strong passion for programming, technology, and
+                    problem-solving. I have hands-on experience in software development with Java, Python, Swift, and web technologies
+                    including HTML, CSS, JavaScript, and React. My background also includes working with Linux environments, cybersecurity
+                    tools, and small-parameter LLMs for mobile devices. I am seeking opportunities where I can apply my technical skills to
+                    contribute to interesting projects (computer science, IT, or otherwise) and continue growing as a developer. I am currently
+                    interested in creating agents for task automation.
                 </p>
-            <h2 id="skills">Technical Skills</h2>
-                <table>
-                    <tr>
-                        <td>Java</td>
-                        <td>Git</td>
-                        <td>Linux</td>
-                    </tr>
-                    <tr>
-                        <td>HTML / CSS</td>
-                        <td>Python / Jupyter</td>
-                        <td>SQL</td>
-                    </tr>
-                    <tr>
-                        <td>Docker</td>
-                        <td>Cybersecurity</td>
-                        <td>JavaScript</td>
-                    </tr>
-                    <tr>
-                        <td>Node.js</td>
-                        <td>React.js</td>
-                        <td>Microsoft Assembly</td>
-                    </tr>
-                    <tr>
-                        <td>Swift</td>
-                        <td>ML (PyTorch)</td>
-                        <td>Small-param LLMs</td>
-                    </tr>
-                </table>
             <h2 id="resume">Resume</h2>
                 <h3>Education</h3>
                     <p>
@@ -63,8 +35,26 @@
                         Minor in Biology<br>
                         Expected Graduation Date: May 2026<br>
                         GPA: 3.85<br>
-                        Relevant Coursework:
                     </p>
+                <h3 id="skills">Technical Skills</h3>
+                    <table>
+                        <tr>
+                            <td>Programming Languages</td>
+                            <td>Python, Java, JavaScript, TypeScript, SQL, Microsoft Assembly</td>
+                        </tr>            
+                        <tr>
+                            <td>ML / AI</td>
+                            <td>ADK / agents, PyTorch, MCP, Apple Foundation Models, Small-Parameter LLMs</td>
+                        </tr>
+                        <tr>
+                            <td>Systems</td>
+                            <td>Linux, Docker, Git</td>
+                        </tr>
+                        <tr>
+                            <td>Web</td>
+                            <td>HTML, CSS, JavaScript, React.js, Node.js</td>
+                        </tr>
+                    </table>
                 <h3>Work Experience</h3>
                     <p>
                         <h4>BioComputing Lab, Florida Institute of Technology</h4>
@@ -74,7 +64,7 @@
                         <ul>
                             <li>Researched methods for reconstruction of SPECT scans.</li>
                             <li>Researched and implemented sinogram augmentations constrained to physical and biological plausibility.</li>
-                            <li>Developing a pipeline for deep learning-based super resolution reconstruction from low-gamma ray sinograms.</li>
+                            <li>Implemented a neural network in PyTorch to reconstruct patient volumes from sinograms, which is significantly faster than traditional reconstruction methods (45 minutes to under 1 second)</li>
                         </ul>
                         <em>Technologies and Tools</em>
                         <ul>
@@ -142,21 +132,26 @@
                         </ul>
                     </p>
                 <h2 id="projects">Projects</h2>
-                <h3>Flashcard Generator, currently in progress / paused</h3>
-                    <p>A flashcard generator using the OpenAI API to create flashcards from files such as pdfs.</p>
-                    <a href="https://github.com/Tiromachelan/flashcard-generator">Github link</a><br>
-                    <img src="https://cdn.neowin.com/news/images/uploaded/2023/01/1672878896_chatgpt-openai_story.jpg" alt="OpenAI logo">
+                <h3>SPECT Scan Reconstruction and Analysis Tool, February 2025 - Present</h3>
+                    <ul>
+                        <li>A tool for instantaneously reconstructing SPECT scans via a neural network, and visually comparing reconstruction methods via an SSIM heatmap of each slice or of the maximum intensity projection of the volume</li>
+                        <li>Includes options for changing view planes, color maps, and SSIM heatmap configuration</li>
+                    </ul>
+                    <a href="https://github.com/Tiromachelan/SPECT-analyzer">GitHub link</a><br>
+                    <img src="Images/tool_screenshot.jpeg" style="width: 600px; height: auto;">
                 <h3>Snake, March 2023</h3>
-                    <p>Recreation of "Snake" in Java using a third-party graphics library.</p>
-                    <a href="https://github.com/Tiromachelan/snake-game">Github link</a><br>
+                    <p>Recreation of "Snake" in Java using a third-party graphics library</p>
+                    <a href="https://github.com/Tiromachelan/snake-game">GitHub link</a><br>
                     <img src="Images/Snake.png" alt="Snake game">
                 <h3>Tetris, June 2022</h3>
-                    <p>Recreation of the classic game "Tetris" in Java using Java Swing and Java Abstract Web Toolkit.</p>
-                    <a href="https://github.com/Tiromachelan/tetris-game">Github link</a><br>
+                    <p>Recreation of the classic game "Tetris" in Java using Java Swing and Java Abstract Web Toolkit</p>
+                    <a href="https://github.com/Tiromachelan/tetris-game">GitHub link</a><br>
                     <img src="Images/Tetris.png" alt="Tetris Game">
                 <h3>Certifications</h3>
                 <ul>
                     <li>NVIDIA Fundamentals of Deep Learning, November 2025</li>
+                    <li>CITI Responsible and Ethical Conduct of Research, January 2026</li>
+                    <li>IBM Enterprise Design Thinking Practitioner, March 2026</li>
                 </ul>
                 <h3>Extracurricular Activities</h3>
                     <ul>
@@ -175,7 +170,6 @@
                 <a href="#skills">Skills</a>
                 <a href="#projects">Projects</a>
                 <a href="#resume">Resume</a>
-                <a href="#contact-me">Contact Me</a>
             </div>
             <div class="bottom-row">
                 <a href="https://github.com/Tiromachelan">GitHub</a>
